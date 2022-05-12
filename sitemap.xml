@@ -6,6 +6,10 @@
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
+	<image:loc>http://alwaysboringstudio.github.io/img/58b0750e917ef9a415f7404e530acbbe.jpg.png</image:loc>
+	<image:title>58b0750e917ef9a415f7404e530acbbe</image:title>
+	</image:image>
+	<image:image>
 	<image:loc>http://alwaysboringstudio.github.io/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
 	</image:image>
@@ -216,6 +220,24 @@
 	<image:image>
 	<image:loc>http://alwaysboringstudio.github.io/img/1242x2208bb-4.png</image:loc>
 	<image:title>1242x2208bb 4</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.github.io/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.github.io/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://alwaysboringstudio.github.io/ios-jailbreakteam/</loc>
+	<lastmod>2022-05-13</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.github.io/img/螢幕截圖%202021-12-14%20下午7.06.41.png</image:loc>
+	<image:title>螢幕截圖 2021 12-14 下午7.06.41</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>http://alwaysboringstudio.github.io/img/</image:loc>
