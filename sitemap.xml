@@ -231,14 +231,10 @@
 	</image:image>
 </url>
 <url>
-	<loc>http://alwaysboringstudio.github.io/ios-jailbreakteam/</loc>
+	<loc>http://alwaysboringstudio.github.io/shares/</loc>
 	<lastmod>2022-05-14</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>http://alwaysboringstudio.github.io/img/螢幕截圖%202021-12-14%20下午7.06.41.png</image:loc>
-	<image:title>螢幕截圖 2021 12-14 下午7.06.41</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>http://alwaysboringstudio.github.io/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -249,10 +245,14 @@
 	</image:image>
 </url>
 <url>
-	<loc>http://alwaysboringstudio.github.io/share/</loc>
+	<loc>http://alwaysboringstudio.github.io/appledevicehackingteam/</loc>
 	<lastmod>2022-05-14</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.github.io/img/螢幕截圖%202021-12-14%20下午7.06.41.png</image:loc>
+	<image:title>螢幕截圖 2021 12-14 下午7.06.41</image:title>
+	</image:image>
 	<image:image>
 	<image:loc>http://alwaysboringstudio.github.io/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
