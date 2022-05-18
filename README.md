@@ -1,3 +1,0 @@
-# alwaysboringstudio.github.io
-
-HaHa
