@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>http://alwaysboringstudio.github.io/supportus/</loc>
-	<lastmod>2022-05-14</lastmod>
+	<lastmod>2022-05-18</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -20,7 +20,7 @@
 </url>
 <url>
 	<loc>http://alwaysboringstudio.github.io/support/</loc>
-	<lastmod>2022-05-14</lastmod>
+	<lastmod>2022-05-18</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -38,7 +38,7 @@
 </url>
 <url>
 	<loc>http://alwaysboringstudio.github.io/update/</loc>
-	<lastmod>2022-05-14</lastmod>
+	<lastmod>2022-05-18</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -56,7 +56,7 @@
 </url>
 <url>
 	<loc>http://alwaysboringstudio.github.io/privacychinese/</loc>
-	<lastmod>2022-05-14</lastmod>
+	<lastmod>2022-05-18</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -70,7 +70,7 @@
 </url>
 <url>
 	<loc>http://alwaysboringstudio.github.io/privacy/</loc>
-	<lastmod>2022-05-14</lastmod>
+	<lastmod>2022-05-18</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -84,7 +84,7 @@
 </url>
 <url>
 	<loc>http://alwaysboringstudio.github.io/morsetranslate/</loc>
-	<lastmod>2022-05-14</lastmod>
+	<lastmod>2022-05-18</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -118,7 +118,7 @@
 </url>
 <url>
 	<loc>http://alwaysboringstudio.github.io/404/</loc>
-	<lastmod>2022-05-14</lastmod>
+	<lastmod>2022-05-18</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -136,7 +136,7 @@
 </url>
 <url>
 	<loc>http://alwaysboringstudio.github.io/bypassmdm/</loc>
-	<lastmod>2022-05-14</lastmod>
+	<lastmod>2022-05-18</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -162,10 +162,6 @@
 	<image:image>
 	<image:loc>http://alwaysboringstudio.github.io/img/螢幕截圖%202021-12-14%20下午7.05.31.png</image:loc>
 	<image:title>螢幕截圖 2021 12-14 下午7.05.31</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>http://alwaysboringstudio.github.io/img/螢幕截圖%202021-12-14%20下午7.05.44.png</image:loc>
-	<image:title>螢幕截圖 2021 12-14 下午7.05.44</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>http://alwaysboringstudio.github.io/img/螢幕截圖%202021-12-14%20下午7.05.58.png</image:loc>
@@ -202,11 +198,11 @@
 </url>
 <url>
 	<loc>http://alwaysboringstudio.github.io/synctimer/</loc>
-	<lastmod>2022-05-14</lastmod>
+	<lastmod>2022-05-18</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
-	<image:loc>http://alwaysboringstudio.github.io/img/1242x2208bb.png</image:loc>
+	<image:loc>http://alwaysboringstudio.github.io/img/1284x2778bb.png</image:loc>
 	<image:title>1242x2208bb</image:title>
 	</image:image>
 	<image:image>
@@ -214,11 +210,11 @@
 	<image:title>881af3199ee320243c3edd1c8456f14a</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>http://alwaysboringstudio.github.io/img/1242x2208bb-1.png</image:loc>
+	<image:loc>http://alwaysboringstudio.github.io/img/1284x2778bb-1.png</image:loc>
 	<image:title>1242x2208bb 1</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>http://alwaysboringstudio.github.io/img/1242x2208bb-4.png</image:loc>
+	<image:loc>http://alwaysboringstudio.github.io/img/1284x2778bb-4.png</image:loc>
 	<image:title>1242x2208bb 4</image:title>
 	</image:image>
 	<image:image>
@@ -232,7 +228,7 @@
 </url>
 <url>
 	<loc>http://alwaysboringstudio.github.io/shares/</loc>
-	<lastmod>2022-05-14</lastmod>
+	<lastmod>2022-05-18</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -246,12 +242,46 @@
 </url>
 <url>
 	<loc>http://alwaysboringstudio.github.io/appledevicehackingteam/</loc>
-	<lastmod>2022-05-14</lastmod>
+	<lastmod>2022-05-18</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
 	<image:loc>http://alwaysboringstudio.github.io/img/螢幕截圖%202021-12-14%20下午7.06.41.png</image:loc>
 	<image:title>螢幕截圖 2021 12-14 下午7.06.41</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.github.io/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.github.io/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://alwaysboringstudio.github.io/hkroadcam/</loc>
+	<lastmod>2022-05-18</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.github.io/img/Simulator%20Screen%20Shot%20-%20iPhone%2013%20Pro%20Max%20-%202022-05-17%20at%2021.41.48.png</image:loc>
+	<image:title>Simulator Screen Shot   iPhone 13 Pro Max - 2022-05-17 at 21.41.48</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.github.io/img/881af3199ee320243c3edd1c8456f14a.jpg.png</image:loc>
+	<image:title>881af3199ee320243c3edd1c8456f14a</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.github.io/img/Simulator%20Screen%20Shot%20-%20iPhone%2013%20Pro%20Max%20-%202022-05-17%20at%2021.41.37.png</image:loc>
+	<image:title>Simulator Screen Shot   iPhone 13 Pro Max - 2022-05-17 at 21.41.37</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.github.io/img/Simulator%20Screen%20Shot%20-%20iPhone%2013%20Pro%20Max%20-%202022-05-17%20at%2021.41.48.png</image:loc>
+	<image:title>Simulator Screen Shot   iPhone 13 Pro Max - 2022-05-17 at 21.41.46</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.github.io/img/Simulator%20Screen%20Shot%20-%20iPhone%2013%20Pro%20Max%20-%202022-05-17%20at%2021.41.46.png</image:loc>
+	<image:title>Simulator Screen Shot   iPhone 13 Pro Max - 2022-05-17 at 21.41.46</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>http://alwaysboringstudio.github.io/img/</image:loc>
