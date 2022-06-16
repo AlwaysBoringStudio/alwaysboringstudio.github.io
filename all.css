@@ -11475,6 +11475,9 @@ button{
 	outline: none!important;
 }
 
+.btn-sq{
+	border-radius: 0px;
+}
 .btn-rd{
 	border-radius: 40px;
 }
@@ -11921,6 +11924,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		width:100%;
 	}
 	.btn-more-info-style{
+		width:100%;
+	}
+	.btn-24-style{
 		width:100%;
 	}
 	
