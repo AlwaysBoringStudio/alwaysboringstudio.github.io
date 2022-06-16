@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Poopjai Fans Club"
+AuthUserFile /poopjai/.htpasswd
+require valid-user
