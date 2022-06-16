@@ -11310,8 +11310,8 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Sizes */
 
-.bloc-sm{
-	padding:20px;
+.bloc-lg{
+	padding:100px 20px;
 }
 
 
@@ -11505,7 +11505,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	max-width:1140px;
 }
 .img-style{
-	width:665px;
+	width:731px;
 	border-radius:0px 0px 0px 0px;
 }
 .img-2-style{
@@ -11579,6 +11579,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-40-style{
 	width:507px;
 	border-radius:0px 0px 0px 0px;
+}
+.img-img-42-style{
+	width:392px;
+}
+.img-bloc-2-style{
+	width:504px;
 }
 
 /* = Colour
