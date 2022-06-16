@@ -271,7 +271,7 @@
                     L = {
                         key: 1
                     },
-                    D = Object(n.createStaticVNode)('<div class="leaderboard-key" data-v-7dfcdf8a>PPS = Pops Per Second</div><div class="authors" data-v-7dfcdf8a>For feedback please contact <a href="https://google.com/error" data-v-7dfcdf8a target="_blank">CrazyAppsHK</a>.</div><div class="recaptcha-notice" data-v-7dfcdf8a> This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy" data-v-7dfcdf8a>Privacy Policy</a> and <a href="https://policies.google.com/terms" data-v-7dfcdf8a>Terms of Service</a> apply. </div><div class="authors" data-v-7dfcdf8a>made by CrazyAppsHK</div>', 3);
+                    D = Object(n.createStaticVNode)('<div class="leaderboard-key" data-v-7dfcdf8a>PPS = Pops Per Second</div><div class="authors" data-v-7dfcdf8a>For feedback please contact <a href="https://google.com/error" data-v-7dfcdf8a target="_blank">anonymous</a>.</div><div class="recaptcha-notice" data-v-7dfcdf8a> This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy" data-v-7dfcdf8a>Privacy Policy</a> and <a href="https://policies.google.com/terms" data-v-7dfcdf8a>Terms of Service</a> apply. </div><div class="authors" data-v-7dfcdf8a>made by anonymousK</div>', 3);
                 Object(n.popScopeId)();
                 var x = a("b85c");
                 a("fb6a"), a("159b"), a("d3b7"), a("4e82"), a("4de4"), Object(n.pushScopeId)("data-v-8bb3fe7e");
