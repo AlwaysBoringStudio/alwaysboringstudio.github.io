@@ -1,3 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url>
+	<loc>http://alwaysboringstudio.github.io/poopjai/</loc>
+	<lastmod>2022-06-17</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.github.io/img/IMG_4240.jpeg</image:loc>
+	<image:title>IMG_4240.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.github.io/img/IMG_0494.JPG</image:loc>
+	<image:title>Screenshot 2022 06-16 at 11.24.20 PM</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.github.io/img/IMG_0485.JPG</image:loc>
+	<image:title>IMG_4240.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.github.io/img/IMG_0483.jpeg</image:loc>
+	<image:title>IMG_0483.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.github.io/img/IMG_0481.jpeg</image:loc>
+	<image:title>IMG_0481.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.github.io/img/IMG_0478.jpeg</image:loc>
+	<image:title>IMG_0478.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.github.io/img/IMG_3082E54D059F-1.jpeg</image:loc>
+	<image:title>IMG_3082E54D059F 1.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.github.io/img/IMG_4068.jpeg</image:loc>
+	<image:title>IMG_4068.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.github.io/img/Screenshot%202022-06-16%20at%2011.24.20%20PM.png</image:loc>
+	<image:title>Screenshot 2022 06-16 at 11.24.20 PM</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.github.io/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.github.io/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
 </urlset>
