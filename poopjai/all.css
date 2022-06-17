@@ -11504,10 +11504,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .container{
 	max-width:1140px;
 }
-.img-style{
-	width:520px;
-	border-radius:0px 0px 0px 0px;
-}
 .img-2-style{
 	width:171px;
 	border-radius:0px 0px 0px 0px;
@@ -11585,6 +11581,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-bloc-2-style{
 	width:504px;
+}
+.img-img-40-style{
+	width:656px;
 }
 
 /* = Colour
@@ -11714,9 +11713,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 
 @media (max-width: 575px){
-	.img-style{
-		width:199px;
-	}
 	.h2-style{
 		font-size:25px;
 	}
