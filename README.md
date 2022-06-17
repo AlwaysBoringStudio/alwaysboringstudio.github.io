@@ -9,7 +9,7 @@
 </br>
 <a href="https://alwaysboringstudio.github.io/popyu/">Pop YU</a>
 </br>
-<a href="https://alwaysboringstudio.github.io/popyu/">Pop Gold</a>
+<a href="https://alwaysboringstudio.github.io/popgold/">Pop Gold</a>
 </br>
 <a href="https://alwaysboringstudio.github.io/old-site/">Old-Site</a>
 # 其他
