@@ -11505,7 +11505,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	max-width:1140px;
 }
 .img-style{
-	width:731px;
+	width:520px;
 	border-radius:0px 0px 0px 0px;
 }
 .img-2-style{
@@ -11581,7 +11581,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	border-radius:0px 0px 0px 0px;
 }
 .img-img-42-style{
-	width:392px;
+	width:512px;
 }
 .img-bloc-2-style{
 	width:504px;
@@ -11715,7 +11715,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 @media (max-width: 575px){
 	.img-style{
-		width:126px;
+		width:199px;
 	}
 	.h2-style{
 		font-size:25px;
@@ -11748,6 +11748,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.btn-24-style{
 		width:100%;
+	}
+	.img-img-42-style{
+		width:216px;
 	}
 	
 	/* Mobile Text Margin Offsets */
