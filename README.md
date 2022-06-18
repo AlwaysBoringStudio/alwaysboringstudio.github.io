@@ -7,7 +7,7 @@
 </br>
 <a href="https://alwaysboringstudio.github.io/synctimer/">SyncTimer</a>
 </br>
-<a href="https://alwaysboringstudio.github.io/popyu/">Pop YU</a>
+<a href="https://alwaysboringstudio.github.io/popyu/">Pop Yu</a>
 </br>
 <a href="https://alwaysboringstudio.github.io/popgold/">Pop Gold</a>
 </br>
