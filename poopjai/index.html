@@ -1,190 +1,297 @@
-<!doctype html>
-<html lang="zh-Hant">
-<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-	<link rel="canonical" href="http://alwaysboringstudio.site/poopjai/">
-	<meta name="robots" content="noindex, follow">
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
-    
-	<link rel="stylesheet" type="text/css" href="./all.css?5270">
-	<link href='https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <title>榴順延官方後援會</title>
+    <style>
+        html, body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #dialogText {
+            color: white;
+            background-color: #333333;
+        }
+        
+        #dialogWrap {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: table;
+            background-color: #EEEEEE;
+        }
+        
+        #dialogWrapCell {
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+        }
+        
+        #mainDialog {
+            max-width: 400px;
+            margin: 5px;
+            border: solid #AAAAAA 1px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 5px 3px #AAAAAA;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #FFFFFF;
+            overflow: hidden;
+            text-align: left;
+        }
+        #mainDialog > * {
+            padding: 10px 30px;
+        }
+        #passArea {
+            padding: 20px 30px;
+            background-color: white;
+        }
+        #passArea > * {
+            margin: 5px auto;
+        }
+        #pass {
+            width: 100%;
+            height: 40px;
+            font-size: 30px;
+        }
+        
+        #messageWrapper {
+            float: left;
+            vertical-align: middle;
+            line-height: 30px;
+        }
+        
+        .notifyText {
+            display: none;
+        }
+        
+        #invalidPass {
+            color: red;
+        }
+        
+        #success {
+            color: green;
+        }
+        
+        #submitPass {
+            font-size: 20px;
+            border-radius: 5px;
+            background-color: #E7E7E7;
+            border: solid gray 1px;
+            float: right;
+            cursor: pointer;
+        }
+        #contentFrame {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        #attribution {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 0.8em;
+        }
+        #attribution, #attribution a {
+            color: #999;
+        }
+        .error {
+            display: none;
+            color: red;
+        }
+    </style>
+  </head>
+  <body>
+    <iframe id="contentFrame" frameBorder="0" allowfullscreen></iframe>
+    <div id="dialogWrap">
+        <div id="dialogWrapCell">
+            <div id="mainDialog">
+                <div id="dialogText">Welcome to poopjai_offical_fans_club</div>
+                
+                <div id="passArea">
+                    <p id="passwordPrompt">請輸入Poop_jai的生日年份來證明你是他的朋友：</p>
+                    <input id="pass" type="password" name="pass" autofocus>
+                    <div>
+                        <span id="messageWrapper">
+                            <span id="invalidPass" class="error">錯誤，請重試</span>
+                            <span id="trycatcherror" class="error">發生錯誤，請稍後再試</span>
+                            <span id="success" class="notifyText">正在進入...請稍後...</span>
+                            &nbsp;
+                        </span>
+                        <button id="submitPass" type="button">進入</button>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                <div id="securecontext" class="error">
+                    <p>
+                        Sorry, but password protection only works over a secure connection. Please load this page via HTTPS.
+                    </p>
+                </div>
+                <div id="nocrypto" class="error">
+                    <p>
+                        Your web browser appears to be outdated. Please visit this page using a modern browser.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+    (function() {
 
+        var pl = "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";
+        
+        var submitPass = document.getElementById('submitPass');
+        var passEl = document.getElementById('pass');
+        var invalidPassEl = document.getElementById('invalidPass');
+        var trycatcherror = document.getElementById('trycatcherror');
+        var successEl = document.getElementById('success');
+        var contentFrame = document.getElementById('contentFrame');
+        
+        // Sanity checks
 
-    
-<!-- Analytics -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5665483653612070"
-     crossorigin="anonymous"></script><style>.disclaimer { display: none; }</style>
-<!-- Analytics END -->
-    
-</head>
-<body>
+        if (pl === "") {
+            submitPass.disabled = true;
+            passEl.disabled = true;
+            alert("This page is meant to be used with the encryption tool. It doesn't work standalone.");
+            return;
+        }
 
-<!-- Preloader -->
-<div id="page-loading-blocs-notifaction" class="page-preloader"></div>
-<!-- Preloader END -->
+        if (!isSecureContext) {
+            document.querySelector("#passArea").style.display = "none";
+            document.querySelector("#securecontext").style.display = "block";
+            return;
+        }
 
+        if (!crypto.subtle) {
+            document.querySelector("#passArea").style.display = "none";
+            document.querySelector("#nocrypto").style.display = "block";
+            return;
+        }
+        
+        function str2ab(str) {
+            var ustr = atob(str);
+            var buf = new ArrayBuffer(ustr.length);
+            var bufView = new Uint8Array(buf);
+            for (var i=0, strLen=ustr.length; i < strLen; i++) {
+                bufView[i] = ustr.charCodeAt(i);
+            }
+            return bufView;
+        }
 
-<!-- Main container -->
-<div class="page-container">
-    
-<!-- bloc-2 -->
-<div class="bloc l-bloc" id="bloc-2">
-	<div class="container none">
-		<div class="row">
-			<div class="col-12">
-				<div class="row object-hidden">
-					<div class="col-lg-6 align-self-center col-md-7">
-						<h1 class="mg-md text-center text-md-start">
-							榴順延官方後援會<br>
-						</h1>
-						<h4 class="mg-md float-none text-center text-md-start">
-							Welcome to&nbsp;poopjai_offical_fans_club
-						</h4><a href="./" class="btn btn-24-style btn-sq btn-d btn-clean btn-sm float-lg-none w-100">登入<br></a><a href="https://forms.gle/exX55x3kdAtLpyeA9" class="btn btn-24-style btn-sq btn-d btn-clean btn-sm float-lg-none w-100">相片投稿區</a>
-					</div>
-					<div class="col-lg-5 offset-lg-1 col-sm-8 offset-sm-2 offset-md-0 col-md-5">
-						<img src="img/IMG_4240.jpeg" class="img-fluid img-protected mx-auto d-block img-bloc-2-style" alt="IMG_4240.jpeg" />
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-2 END -->
+        async function deriveKey(salt, password) {
+            const encoder = new TextEncoder()
+            const baseKey = await crypto.subtle.importKey(
+                'raw',
+                encoder.encode(password),
+                'PBKDF2',
+                false,
+                ['deriveKey'],
+            )
+            return await crypto.subtle.deriveKey(
+                { name: 'PBKDF2', salt, iterations: 100000, hash: 'SHA-256' },
+                baseKey,
+                { name: 'AES-GCM', length: 256 },
+                true,
+                ['decrypt'],
+            )
+        }
+        
+        async function doSubmit(evt) {
+            submitPass.disabled = true;
+            passEl.disabled = true;
 
-<!-- bloc-2 -->
-<div class="bloc l-bloc" id="bloc-2">
-	<div class="container none">
-		<div class="row">
-			<div class="col">
-				<div class="row">
-					<div class="col-lg-6 align-self-center col-md-7">
-						<h1 class="mg-md text-center text-md-start">
-							榴順延官方後援會<br>
-						</h1>
-						<h4 class="mg-md float-none text-center text-md-start">
-							Welcome to&nbsp;poopjai_offical_fans_club<br>
-						</h4><a href="https://forms.gle/exX55x3kdAtLpyeA9" class="btn btn-24-style btn-sq btn-d btn-clean btn-sm float-lg-none w-100">相片投稿區</a>
-					</div>
-					<div class="col-lg-5 offset-lg-1 col-sm-8 offset-sm-2 offset-md-0 col-md-5">
-						<img src="img/IMG_4240.jpeg" class="img-fluid img-protected mx-auto d-block img-bloc-2-style" alt="IMG_4240.jpeg" />
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-2 END -->
+            let iv, ciphertext, key;
+            
+            try {
+                var unencodedPl = str2ab(pl);
 
-<!-- bloc-2 -->
-<div class="bloc l-bloc " id="bloc-2">
-	<div class="container bloc-lg none-lg">
-		<div class="row">
-			<div class="col-md-3">
-				<h6 class="mg-md">
-					Cute Cute PoopJai
-				</h6><img src="img/0B3E23A7-E537-4CDA-8ED1-C3D51399B5D6%20-%20Chun%20Hei%20Lee.jpeg" class="img-fluid img-protected mx-auto d-block" alt="IMG_0494.JPG" />
-				<h6 class="mg-md">
-					EVAN❤❤❤❤
-				</h6>
-				<div class="divider-h">
-					<span class="divider"></span>
-				</div><img src="img/Capture%2B_2021-09-18-19-54-22%20-%20Pan%20Ka.png" class="img-fluid img-protected mx-auto d-block" alt="IMG_0485.JPG" />
-				<div class="divider-h  d-md-none d-block">
-					<span class="divider"></span>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<h6 class="mg-md">
-					When poop jai was young…
-				</h6><img src="img/79ED827D-6F39-4862-804F-06A5D2A57471%20-%20Wayne%20Chan.png" class="img-fluid img-protected mx-auto d-block" alt="IMG_0483.jpeg" />
-				<div class="divider-h">
-					<span class="divider"></span>
-				</div><img src="img/IMG_3082E54D059F-1.jpeg" class="img-fluid img-protected mx-auto d-block" alt="IMG_3082E54D059F 1.jpeg" />
-				<div class="divider-h  d-md-none d-block">
-					<span class="divider"></span>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<img src="img/IMG_4240.jpeg" class="img-fluid img-protected mx-auto d-block" alt="IMG_4240.jpeg" />
-				<div class="divider-h">
-					<span class="divider"></span>
-				</div><img src="img/IMG_4068.jpeg" class="img-fluid img-protected mx-auto d-block" alt="IMG_0494.JPG" />
-				<div class="divider-h">
-					<span class="divider"></span>
-				</div><img src="img/IMG_0483.jpeg" class="img-fluid img-protected mx-auto d-block" alt="IMG_3082E54D059F 1.jpeg" />
-				<div class="divider-h">
-					<span class="divider"></span>
-				</div><img src="img/IMG_0481.jpeg" class="img-fluid img-protected mx-auto d-block" alt="IMG_3082E54D059F 1.jpeg" />
-				<div class="divider-h  d-md-none d-block">
-					<span class="divider"></span>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<img src="img/IMG_0494.JPG" class="img-fluid img-protected mx-auto d-block" alt="IMG_0494.JPG" />
-				<div class="divider-h">
-					<span class="divider"></span>
-				</div><img src="img/Screenshot%202022-06-16%20at%2011.24.20%20PM.png" class="img-fluid img-protected mx-auto d-block" alt="Screenshot%202022 06-16%20at%2011.24.20%20PM" />
-				<div class="divider-h">
-					<span class="divider"></span>
-				</div><img src="img/IMG_0478.jpeg" class="img-fluid img-protected mx-auto d-block" alt="IMG_0478.jpeg" />
-				<div class="divider-h">
-					<span class="divider"></span>
-				</div><img src="img/IMG_0485.JPG" class="img-fluid img-protected mx-auto d-block" alt="IMG_3082E54D059F 1.jpeg" />
-				<div class="divider-h  d-md-none d-block">
-					<span class="divider"></span>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-2 END -->
+                const salt = unencodedPl.slice(0, 32)
+                iv = unencodedPl.slice(32, 32 + 16)
+                ciphertext = unencodedPl.slice(32 + 16)
 
-<!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path class="scroll-to-top-btn-icon" d="M30,22.656l-14-13-14,13"/></svg></a>
-<!-- ScrollToTop Button END-->
+                key = await deriveKey(salt, passEl.value);
+            } catch (e) {
+                trycatcherror.style.display = "inline";
+                console.error(e);
+                return;
+            }
 
+            try {
+                const decryptedArray = new Uint8Array(
+                    await crypto.subtle.decrypt({ name: 'AES-GCM', iv }, key, ciphertext)
+                );
 
-<!-- bloc-3 -->
-<div class="bloc b-divider none bgc-black" id="bloc-3">
-	<div class="container bloc-sm-lg none">
-		<div class="row">
-			<div class="col-12 col-sm-4 col-lg-3">
-				<h4 class="mg-md text-center text-sm-start tc-isabelline text-lg-center mg-sm-xs h4-bloc-3-color">
-					<span class="text-span-0-color">支援</span><br>
-				</h4><a href="/support/" class="a-btn a-block footer-link ltc-isabelline text-lg-center">提出支援要求</a><a href="/support/" class="a-btn a-block footer-link ltc-isabelline text-lg-center">提出建議</a>
-			</div>
-			<div class="col-12 col-sm-4 col-lg-3">
-				<h4 class="mg-md text-center text-sm-start tc-isabelline text-lg-center mg-sm-xs h4-color">
-					<span class="text-span-bloc-3-color">我們的軟件</span><br>
-				</h4><a href="/hkroadcam/" class="a-btn a-block footer-link ltc-isabelline text-lg-center">交通快拍App</a><a href="/synctimer/" class="a-btn a-block footer-link ltc-isabelline text-lg-center">SyncTimer</a>
-			</div>
-			<div class="col-12 col-sm-4 col-lg-3">
-				<h4 class="mg-md text-center text-sm-start tc-isabelline text-lg-center mg-sm-xs">
-					<span class="text-span-color">其他</span><br>
-				</h4><a href="/privacy/" class="a-btn a-block footer-link ltc-isabelline text-lg-center">私隱政策(Eng)</a><a href="/privacychinese/" class="a-btn a-block footer-link ltc-isabelline text-lg-center">私隱政策(中文)</a>
-			</div>
-			<div class="col-12 col-sm-4 col-lg-3">
-				<h6 class="mg-md tc-isabelline text-lg-center mx-auto d-block text-center">
-					<span>© 2020-2022 AlwaysBoringStudio.<br>保留一切權利</span><br>
-				</h6>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-3 END -->
+                let decrypted = new TextDecoder().decode(decryptedArray);
 
-</div>
-<!-- Main container END -->
-    
+                if (decrypted === "") throw "No data returned";
 
+                const basestr = '<base href="." target="_top">';
+                const anchorfixstr = `
+                    <script>
+                        Array.from(document.links).forEach((anchor) => {
+                            const href = anchor.getAttribute("href");
+                            if (href.startsWith("#")) {
+                                anchor.addEventListener("click", function(e) {
+                                    e.preventDefault();
+                                    const targetId = this.getAttribute("href").substring(1);
+                                    const targetEl = document.getElementById(targetId);
+                                    targetEl.scrollIntoView();
+                                });
+                            }
+                        });
+                    <\/script>
+                `;
+                
+                // Set default iframe link targets to _top so all links break out of the iframe
+                if (decrypted.includes("<head>")) decrypted = decrypted.replace("<head>", "<head>" + basestr);
+                else if (decrypted.includes("<!DOCTYPE html>")) decrypted = decrypted.replace("<!DOCTYPE html>", "<!DOCTYPE html>" + basestr);
+                else decrypted = basestr + decrypted;
 
-<!-- Additional JS -->
-<script src="./js/all.js?6583"></script><!-- Additional JS END -->
-
-
-</body>
+                // Fix fragment links
+                if (decrypted.includes("</body>")) decrypted = decrypted.replace("</body>", anchorfixstr + '</body>');
+                else if (decrypted.includes("</html>")) decrypted = decrypted.replace("</html>", anchorfixstr + '</html>');
+                else decrypted = decrypted + anchorfixstr;
+                
+                contentFrame.srcdoc = decrypted;
+                
+                successEl.style.display = "inline";
+                setTimeout(function() {
+                    dialogWrap.style.display = "none";
+                }, 1000);
+            } catch (e) {
+                invalidPassEl.style.display = "inline";
+                passEl.value = "";
+                submitPass.disabled = false;
+                passEl.disabled = false;
+                console.error(e);
+                return;
+            }
+        }
+        
+        submitPass.onclick = doSubmit;
+        passEl.onkeypress = function(e){
+            if (!e) e = window.event;
+            var keyCode = e.keyCode || e.which;
+            invalidPassEl.style.display = "none";
+            if (keyCode == '13'){
+              // Enter pressed
+              doSubmit();
+              return false;
+            }
+        }
+    })();
+    </script>
+  </body>
 </html>
