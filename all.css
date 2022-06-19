@@ -11676,6 +11676,11 @@ button{
 	background-image:url("img/Apple-Macbook-Space-Grey.png");
 }
 
+/* Hide Object */
+.object-hidden{
+	display:none;
+}
+
 /* = Custom Styling
 -------------------------------------------------------------- */
 
