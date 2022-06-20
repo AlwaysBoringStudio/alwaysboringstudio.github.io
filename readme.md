@@ -14,7 +14,4 @@
 <a href="https://alwaysboringstudio.site/poopjai/">榴順延官方後援會</a>
 # 其他
 <a href="https://alwaysboringstudio.site/privacy/">私隱政策(Eng)</a>
-</br>
-<a href="https://alwaysboringstudio.site/privacychinese/">私隱政策(中文)</a>
-
 © 2020-2022 AlwaysBoringStudio. 保留一切權利
