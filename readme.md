@@ -15,6 +15,6 @@
 # 其他
 <a href="https://alwaysboringstudio.site/privacy/">私隱政策(Eng)</a>
 </br>
-<a href="https://alwaysboringstudio.site/privacychi/">私隱政策(中文)</a>
+<a href="https://alwaysboringstudio.site/privacychinese/">私隱政策(中文)</a>
 </br>
 © 2020-2022 AlwaysBoringStudio. 保留一切權利
