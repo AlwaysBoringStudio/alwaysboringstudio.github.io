@@ -2,9 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>http://alwaysboringstudio.site/docs/45984209358435823405820345243895/</loc>
-	<lastmod>2022-07-01</lastmod>
+	<lastmod>2022-07-02</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.site/docs/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.site/docs/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://alwaysboringstudio.site/docs/897675435678908076543246789076543256789/</loc>
+	<lastmod>2022-07-02</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.site/docs/img/12.png</image:loc>
+	<image:title>12</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.site/docs/img/13.png</image:loc>
+	<image:title>13</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.site/docs/img/15.png</image:loc>
+	<image:title>15</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.site/docs/img/16.png</image:loc>
+	<image:title>16</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.site/docs/img/18.png</image:loc>
+	<image:title>18</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.site/docs/img/20.png</image:loc>
+	<image:title>20</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.site/docs/img/21.png</image:loc>
+	<image:title>21</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.site/docs/img/22.png</image:loc>
+	<image:title>22</image:title>
+	</image:image>
 	<image:image>
 	<image:loc>http://alwaysboringstudio.site/docs/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
