@@ -11806,6 +11806,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.btn-24-style{
 		width:100%;
 	}
+	.h1-style{
+		width:95.19%;
+	}
 	
 	/* Mobile Text Margin Offsets */
 	.mg-sm-xs{
