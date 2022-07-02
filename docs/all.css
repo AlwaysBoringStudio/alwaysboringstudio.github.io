@@ -11310,6 +11310,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Sizes */
 
+.bloc-lg{
+	padding:100px 20px;
+}
 .bloc-sm{
 	padding:20px;
 }
@@ -11485,6 +11488,10 @@ button{
 }
 
 
+/* Scroll FX */
+.scroll-fx-in-range{
+	will-change: opacity;
+}
 
 
 /* ScrollToTop button */
@@ -11511,6 +11518,35 @@ button{
 	stroke-width: 2px;
 	fill-rule: evenodd;
 	stroke-linecap:round;
+}
+/* = MacBook Devices
+-------------------------------------------------------------- */
+
+.blocsapp-device-mb{
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	display: block;
+	width:100%;
+	height:auto;
+	padding: 3.6% 15% 7.5%;
+}
+.blocsapp-device-mb img{
+	width:100%;
+	height:auto;
+	margin: 0 auto;
+}
+.blocsapp-device-mb .ratio::before{
+	padding-top: 56.25%;
+}
+.blocsapp-device-mb .ratio{
+	padding-bottom: 8%;
+}
+/* = MacBook Space Grey
+-------------------------------------------------------------- */
+
+.mb-space-grey{
+	background-image:url("img/Apple-Macbook-Space-Grey.png");
 }
 
 /* = Custom Styling
