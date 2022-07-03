@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
+	<loc>http://alwaysboringstudio.site</loc>
+	<lastmod>2022-07-03</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>1.0</priority>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.site/img/Simulator%20Screen%20Shot%20-%20iPhone%2013%20Pro%20Max%20-%202022-05-17%20at%2021.41.46.png</image:loc>
+	<image:title>1242x2208bb</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.site/img/1284x2778bb-2.png</image:loc>
+	<image:title>1242x2208bb</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.site/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.site/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
 	<loc>http://alwaysboringstudio.site/support/</loc>
 	<lastmod>2022-07-03</lastmod>
 	<changefreq>Weekly</changefreq>
