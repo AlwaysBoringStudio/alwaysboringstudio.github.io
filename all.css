@@ -11457,6 +11457,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-clear{
+	margin:0;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -11730,7 +11733,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:100%;
 }
 .btn-more-info-style{
-	width:36.48%;
+	width:100%;
 }
 .img-32-style{
 	width:176px;
@@ -11752,12 +11755,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .html-widget-bloc-22-style{
 	height:70px;
 }
-.h2-bloc-4-style{
-	width:82.73%;
-	font-size:30px;
-}
 .p-bloc-27-style{
-	font-size:35px;
+	font-size:25px;
+}
+.row-bloc-2-style{
+	width:92.45%;
 }
 
 /* = Colour
@@ -11920,6 +11922,18 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		width:100%;
 	}
 	.btn-24-style{
+		width:100%;
+	}
+	.p-bloc-27-style{
+		font-size:15px;
+	}
+	.html-widget-0-style{
+		width:100%;
+	}
+	.card-body-style{
+		width:100%;
+	}
+	.card-header-style{
 		width:100%;
 	}
 	
