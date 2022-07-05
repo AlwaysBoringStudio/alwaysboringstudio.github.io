@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>http://alwaysboringstudio.site</loc>
-	<lastmod>2022-07-03</lastmod>
+	<lastmod>2022-07-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -24,7 +24,7 @@
 </url>
 <url>
 	<loc>http://alwaysboringstudio.site/support/</loc>
-	<lastmod>2022-07-03</lastmod>
+	<lastmod>2022-07-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -38,7 +38,7 @@
 </url>
 <url>
 	<loc>http://alwaysboringstudio.site/update/</loc>
-	<lastmod>2022-07-03</lastmod>
+	<lastmod>2022-07-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -56,7 +56,7 @@
 </url>
 <url>
 	<loc>http://alwaysboringstudio.site/privacychinese/</loc>
-	<lastmod>2022-07-03</lastmod>
+	<lastmod>2022-07-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -70,7 +70,7 @@
 </url>
 <url>
 	<loc>http://alwaysboringstudio.site/privacy/</loc>
-	<lastmod>2022-07-03</lastmod>
+	<lastmod>2022-07-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -84,7 +84,7 @@
 </url>
 <url>
 	<loc>http://alwaysboringstudio.site/morsetranslate/</loc>
-	<lastmod>2022-07-03</lastmod>
+	<lastmod>2022-07-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -118,7 +118,7 @@
 </url>
 <url>
 	<loc>http://alwaysboringstudio.site/404/</loc>
-	<lastmod>2022-07-03</lastmod>
+	<lastmod>2022-07-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -136,7 +136,7 @@
 </url>
 <url>
 	<loc>http://alwaysboringstudio.site/synctimer/</loc>
-	<lastmod>2022-07-03</lastmod>
+	<lastmod>2022-07-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -165,26 +165,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>http://alwaysboringstudio.site/shares/</loc>
-	<lastmod>2022-07-03</lastmod>
-	<changefreq>Weekly</changefreq>
-	<priority>0.5</priority>
-	<image:image>
-	<image:loc>http://alwaysboringstudio.site/img/58b0750e917ef9a415f7404e530acbbe.jpg.png</image:loc>
-	<image:title>58b0750e917ef9a415f7404e530acbbe</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>http://alwaysboringstudio.site/img/</image:loc>
-	<image:title>Twitter Social Card Image</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>http://alwaysboringstudio.site/img/</image:loc>
-	<image:title>Facebook Social Card Image</image:title>
-	</image:image>
-</url>
-<url>
 	<loc>http://alwaysboringstudio.site/hkroadcam/</loc>
-	<lastmod>2022-07-03</lastmod>
+	<lastmod>2022-07-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -222,7 +204,7 @@
 </url>
 <url>
 	<loc>http://alwaysboringstudio.site/absc/</loc>
-	<lastmod>2022-07-03</lastmod>
+	<lastmod>2022-07-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -248,7 +230,7 @@
 </url>
 <url>
 	<loc>http://alwaysboringstudio.site/nft/</loc>
-	<lastmod>2022-07-03</lastmod>
+	<lastmod>2022-07-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -262,7 +244,7 @@
 </url>
 <url>
 	<loc>http://alwaysboringstudio.site/partner/</loc>
-	<lastmod>2022-07-03</lastmod>
+	<lastmod>2022-07-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>

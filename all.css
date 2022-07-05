@@ -11520,23 +11520,18 @@ button{
 	width: 100%;
 }
 }
-/* = Dividers
+/* = Classic Dividers
 -------------------------------------------------------------- */
 .divider-h{
-	padding:20px 0;
-	width:100%;
-	display:inline-block;
-}
-.divider-h span{
-	display: block;
-	border-top:1px solid transparent;
+	min-height: 1px;
+	background-color:rgba(0,0,0,.2);
+	margin: 20px 0;
 }
 .divider-half{
 	width: 50%;
-	margin: 0 auto;
 }
-.dropdown-menu .divider-h,.dropdown-menu .divider-half{
-	padding:0;
+.dropdown-menu .divider-h{
+	margin:0;
 }
 
 
@@ -11756,6 +11751,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .html-widget-bloc-22-style{
 	height:70px;
+}
+.h2-bloc-4-style{
+	width:82.73%;
+	font-size:30px;
+}
+.p-bloc-27-style{
+	font-size:35px;
 }
 
 /* = Colour
