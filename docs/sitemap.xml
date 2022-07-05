@@ -122,4 +122,18 @@
 	<image:title>Facebook Social Card Image</image:title>
 	</image:image>
 </url>
+<url>
+	<loc>http://alwaysboringstudio.site/docs/460987654345678909876543456789/</loc>
+	<lastmod>2022-07-05</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.site/docs/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.site/docs/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
 </urlset>
