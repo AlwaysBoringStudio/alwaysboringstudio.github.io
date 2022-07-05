@@ -11310,6 +11310,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Sizes */
 
+.bloc-lg{
+	padding:100px 20px;
+}
 .bloc-sm{
 	padding:20px;
 }
@@ -11637,6 +11640,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .container-div-style{
 	width:100%;
+}
+.html-widget-style{
+	width:91.06%;
 }
 
 /* = Colour
