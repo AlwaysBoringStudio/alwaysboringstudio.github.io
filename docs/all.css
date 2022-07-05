@@ -11611,11 +11611,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	line-height:16px;
 }
 .btn-button-style{
-	width:85.52%;
+	width:100%;
 }
 .h1-style{
 	width:73.17%;
-	line-height:40px;
+	line-height:30px;
 }
 .row-style{
 	width:100%;
@@ -11641,6 +11641,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .html-widget-style{
 	width:91.06%;
+}
+.card-body-style{
+	width:100%;
 }
 
 /* = Colour
