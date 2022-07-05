@@ -11310,9 +11310,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Sizes */
 
-.bloc-lg{
-	padding:100px 20px;
-}
 .bloc-sm{
 	padding:20px;
 }
@@ -11407,6 +11404,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-clear{
+	margin:0;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -11537,11 +11537,11 @@ button{
 .blocsapp-device-mb .ratio{
 	padding-bottom: 8%;
 }
-/* = MacBook Space Grey
+/* = MacBook Pro
 -------------------------------------------------------------- */
 
-.mb-space-grey{
-	background-image:url("img/Apple-Macbook-Space-Grey.png");
+.blocsapp-device-mbp{
+	background-image:url("img/Apple-Macbook-Pro.png");
 }
 
 /* = Custom Styling
