@@ -11688,12 +11688,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-bloc-12-style{
 	width:358px;
 }
-.btn-style{
-	width:81.17%;
-	padding-top:4px;
-	padding-bottom:4px;
-	border-radius:21px 21px 21px 21px;
-}
 .h2-bloc-2-style{
 	width:100%;
 }
@@ -11704,7 +11698,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:100%;
 }
 .img-bloc-16-style{
-	width:190px;
+	width:188px;
 	border-radius:0px 0px 0px 0px;
 }
 .p-style{
@@ -11723,7 +11717,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:100%;
 }
 .img-32-style{
-	width:176px;
+	width:178px;
 }
 .row-40-style{
 	width:56.95%;
@@ -11747,6 +11741,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .row-bloc-2-style{
 	width:92.45%;
+}
+.img-web-bad-style{
+	width:200px;
+	border-radius:12px 12px 12px 12px;
 }
 
 /* = Colour
