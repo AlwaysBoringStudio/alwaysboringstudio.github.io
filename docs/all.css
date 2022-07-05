@@ -11607,7 +11607,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	border-radius:0px 0px 0px 0px;
 }
 .p-style{
-	font-size:18px;
+	font-size:10px;
+	line-height:16px;
 }
 .btn-button-style{
 	width:85.52%;
