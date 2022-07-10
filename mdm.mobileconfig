@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConfirmInstallation</key>
+	<true/>
+	<key>PayloadContent</key>
+	<dict>
+		<key>Challenge</key>
+		<string>d999fbf3-f8c2-798a-dd39-aa6492674d36</string>
+		<key>DeviceAttributes</key>
+		<array>
+			<string>DEVICE_NAME</string>
+			<string>UDID</string>
+			<string>IMEI</string>
+			<string>MEID</string>
+			<string>DeviceID</string>
+			<string>SERIAL</string>
+			<string>VERSION</string>
+			<string>PRODUCT</string>
+			<string>COMPROMISED</string>
+		</array>
+		<key>URL</key>
+		<string>https://AlwaysBoringStudio-Server.local/devicemanagement/mdm/auto_join_ota_service</string>
+	</dict>
+	<key>PayloadDescription</key>
+	<string>Enrolls your devices with the management server.</string>
+	<key>PayloadDisplayName</key>
+	<string>New Enrollment Profile</string>
+	<key>PayloadIdentifier</key>
+	<string>com.apple.ota.AlwaysBoringStudio-Server.local.bootstrap</string>
+	<key>PayloadOrganization</key>
+	<string>AlwaysBoringStudio</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Profile Service</string>
+	<key>PayloadUUID</key>
+	<string>17401836-C5CD-4ABE-8C8D-38458F06570D</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
