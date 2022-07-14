@@ -158,4 +158,32 @@
 	<image:title>Facebook Social Card Image</image:title>
 	</image:image>
 </url>
+<url>
+	<loc>http://alwaysboringstudio.site/docs/21345678965432456789543/</loc>
+	<lastmod>2022-07-14</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.site/docs/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.site/docs/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://alwaysboringstudio.site/docs/keynote785934857/</loc>
+	<lastmod>2022-07-14</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.site/docs/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://alwaysboringstudio.site/docs/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
 </urlset>
