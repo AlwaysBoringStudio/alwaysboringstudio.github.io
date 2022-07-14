@@ -11544,11 +11544,6 @@ button{
 	background-image:url("img/Apple-Macbook-Pro.png");
 }
 
-/* Hide Object */
-.object-hidden{
-	display:none;
-}
-
 /* = Custom Styling
 -------------------------------------------------------------- */
 
@@ -11646,12 +11641,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:100%;
 }
 .card-body-style{
-	width:100%;
-}
-.card-style{
-	width:100%;
-}
-.card-body-4-style{
 	width:100%;
 }
 .card-body-bloc-1-style{
