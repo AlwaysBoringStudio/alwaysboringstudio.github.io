@@ -12007,6 +12007,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .ltc-isabelline:hover{
 	color:#bfbfbf!important;
 }
+.ltc-black{
+	color:#000000!important;
+}
+.ltc-black:hover{
+	color:#000000!important;
+}
 
 /* Bloc image backgrounds */
 
